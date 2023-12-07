@@ -1,6 +1,6 @@
 # ProjetoDeteccaoPlacas
 
-Softwares and packages required:
+Softwares e pacotes necessários:
 
   1- Python (3.12.0)
   
@@ -8,7 +8,7 @@ Softwares and packages required:
   
   3- streamlit --- pip install streamlit
 
-How to use:
+Como Usar:
 
 1- Abrir o terminal e ir até a pasta onde se encontra o arquivo CRUD.py, apos isso, rodar o comando stremalit run CRUD.py
 
@@ -19,3 +19,9 @@ How to use:
 4- Voltando a pasta principal (ProjetoDeteccaoPlacas) você deverá abrir a pasta OcrPython e abrir o ExemploEstagio.py
 
 5- na função main o source deverá receber o caminho da imagem que você deseja escanear, após passar o caminho é só executar o script que ele começará fazer o OCR.
+
+Situação do projeto:
+
+No presente momento, conseguimos desenvolver o CRUD e também o script q faz o OCR, detectando a placa e imprimindo no final uma string com o conteudo encontrado na placa, e também o Front-end.
+O problema que encontramos foi a junção de ambas partes, por exemplo fazer com que o CRUD consiga chamar o script do OCR no momento em que o usuario clicar para tirar a foto, tentamos de varias maneiras e não conseguimos atingir o objetivo esperado.
+Quanto ao front-end, ele está desenvolvido, mas, tivemos problemas também na hora de conectar ao back-end
